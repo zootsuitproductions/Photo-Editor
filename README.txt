@@ -1,3 +1,10 @@
+To Run the app, clone this repository and cd to it in terminal or command prompt. 
+
+Then, execute "java -jar res/jar_and_scripts/hw07.jar -interactive".
+
+For a guide on the features of the GUI app, consult the USEME.txt file. Below are the rest of the specifications of the complete program:
+
+
 HW07 ReadMe:
 
 CONSULT THE USEME FILE FOR INSTRUCTIONS ON HOW TO USE THE GUI WE MADE!
