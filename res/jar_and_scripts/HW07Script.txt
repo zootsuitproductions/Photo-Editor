@@ -1,0 +1,40 @@
+loadLayeredImage ./script1layeredimage/imageLocations.txt
+
+createLayer layer4
+createLayer layer5
+
+load test1.png
+setCurrent layer2
+load o-b-board.jpeg
+setCurrent layer3
+load p-g-board.png
+setCurrent layer4
+load test1.jpeg
+
+ERRORRRRRR
+AAAAAA
+setCCurent 
+setCurrent ?
+setTransparent c
+???!! !  N\t NAKS \n a $)%(&^%$#$%^&
+
+remove layer4 
+setCurrent layer3
+addCopyOfCurrentLayer layer3Copy
+setTransparent layer1
+setTransparent layer2
+setVisible layer2
+setCurrent layer3Copy
+createRainbow
+blur
+setCurrent layer3
+sepia
+setCurrent layer2
+sharpen
+setCurrent layer1
+greyscale
+
+exportLayerImage hw06Script1ExportedImage.png
+
+saveLayers script1layeredimage2
+

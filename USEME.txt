@@ -1,0 +1,362 @@
+
+HW07 USEME:
+
+How To Use The GUI:
+
+PLEASE NOTE: To run the scripts we wrote, and to run our tests, you need to unzip the res folder beforehand!! We had to zip this folder to get around the 125 file cap. Thank you!
+
+
+Important Note:
+-The name of our script file that we created for hw07 is: HW07Script.txt 
+
+- For our GUI, the photo that the client can see is always the topmost visible layer in the layered image. However, you are allowed to work on other layers in the layered image by selecting your specific layer in the selection list in our GUI and making it the current layer. However, if the layer you picked is not the topmost visible image layer in the layered image, then you will not be able to see that specific layer you are working on. You would have to make other layers on top of your layer transparent in order to make the layer you are working on the “topmost visible layer image: in the layered image.
+
+
+Necessary First Steps to Take:
+
+Since none of the widgets in the GUI will work properly if there are no layers in the image, the first thing you have to do is create a layer in the layered image. There are two ways you can do this: the createLayer button on the right side of the screen or you can use the createLayer menu option which you can access by clicking the Layer menu tab at the top of the screen and then by clicking the createLayer menu option in the pop-down window that comes up. You will be prompted to type in a name for your new layer! Make sure your name is not empty or a duplicate of a name already inside of the layer! 
+
+THIS IS THE MOST CRUCIAL STEP TO TAKE THROUGHOUT THE ENTIRE INTERACTION WITH THE GUI:
+
+After you create the layers you want to use, a selection list will pop up on the right side of all of the layers you have created. IT IS IMPERATIVE THAT YOU CLICK THE LAYER YOU WANT TO APPLY A SPECIFIC EDIT OR COMMAND TO. YOU MUST ALWAYS HAVE A SPECIFIC LAYER CLICKED BEFORE PRESSING ANY OF THE BUTTONS OR MENU OPTIONS. You will know if a button is clicked on the selection list if it is highlighted in blue. CLICKING A LAYER MAKES IT THE CURRENT LAYER IN THE LAYERED IMAGE. It is also important to remember that you are viewing the topmost visible layer’s image, not the current layer image!!!
+
+
+Last clarification: Every layer has a symbol in front of it, either a black diamond or white diamond. If you see a black diamond in front of the layer name, this means that this layer is visible. If you see a white diamond in front of the layer name, this means this layer is not visible. 
+
+
+
+IMPORTANT NOTE: ALL THE FUNCTIONALITY CAN BE DONE THROUGH THE MENU ITEMS OR THROUGH ALL OF THE VISIBLE BUTTONS, CLICKING EITHER ONE WILL DO THE SAME THING.
+
+
+
+How To Use The Specific Buttons and Menu Items:
+
+
+Create Layer:
+
+To create a layer in the GUI, there are two things you can do. The first way to create a new layer is to press the Create Layer button that is located on the right side of the GUI. After pressing this button, you will be prompted with the name you want to choose for the new layer you created. Make sure the name you choose does not already exist inside of your layered image. In our program, every time you use this create layer functionality, a layer is created with your name choice but it is blank (no image is inside the layer at first). To add an image into the layer, you can use the “Load Image Into Layer” functionality that is explained further down!
+The other way to create a new layer is through the menu at the top of the GUI! Press the “Layer” menu option and choose the “Create Layer” option in the pop-down window. The same rules apply with this version of creating a new layer.
+
+Duplicate Current Layer:
+
+To duplicate the current layer, there are two things you can do. The first way to duplicate the current layer is to press the “Duplicate Current Layer” button on the right-hand side of the GUI. BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT YOU WANT THE CURRENT LAYER TO BE. After you press the duplicate current layer button, it will create a duplicate layer of the current layer you selected in the selection list. The button will prompt you with a message asking for a new layer name. Make sure this new layer name does not already exist inside of the layered image. The other way to duplicate the current layer is through the menu at the top of the GUI. Press the “Layer” menu option and choose the “Duplicate Current Layer” option in the pop-down window. The same exact rules apply with this version of duplicating a current layer. MAKE SURE YOU HAVE A LAYER CLICKED/SELECTED IN YOUR SELECTION LIST BEFORE PRESSING THE BUTTONS TO CREATE A DUPLICATE CURRENT LAYER.
+
+Remove Layer:
+
+To remove a layer, there are two things you can do. The first way to remove the current layer you have clicked is to press the “Remove Layer” button on the left-hand side of the GUI. BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT THE CURRENT LAYER IS YOU WANT TO REMOVE! After you press the remove button, it will remove the layer you have clicked in the selection list and adjust the list of layers accordingly. The other way to remove the current layer is through the menu at the top of the GUI. Press the “Layer” menu option and then press the “Remove Layer” option in the pop-down window that comes up. The same exact rules apply with this version of removing a layer from the layered image. MAKE SURE YOU HAVE A LAYER CLICKED/SELECTED IN YOUR SELECTION LIST BEFORE PRESSING THE BUTTONS TO REMOVE THAT LAYER.
+
+
+Toggle Visibility: 
+
+To toggle the visibility of a layer in the layered image, there are two things you can do. The first way to toggle the visibility of a layer is to press the “Toggle Visibility” button on the left-hand side of the GUI. BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT THE CURRENT LAYER IS YOU WANT TO TOGGLE THE VISIBILITY OF! Toggling the visibility of a specific layer means you have the power to turn the layer from visible to transparent whenever you want! In the selection list of layers, there are diamonds in front of each of the layers. If the diamond is dark, this means that the layer is visible. If the diamond is light, this means that the layer is transparent. The toggle visibility button will switch the color of the diamonds in front of your SELECTED LAYER every time the button is pressed, which will indicate what the visibility level of the SELECTED LAYER is. The other way to toggle the visibility of a layer is through the menu option at the top of the GUI. Press the “Layer” menu option and then press the “Toggle Visibility” option in the pop-down window that comes up.  MAKE SURE YOU HAVE A LAYER CLICKED/SELECTED IN YOUR SELECTION LIST BEFORE PRESSING THE BUTTONS TO TOGGLE THE VISIBILITY OF THAT LAYER.
+
+
+Insert Rainbow Image: 
+
+To insert a rainbow image into a layer that is inside of a layered image, there are two things you can do. The first way to insert a rainbow image into a layer is to press the “Insert Rainbow Image” button on the left-hand side of the GUI. Before inserting a rainbow image into a layer, you need to make sure that you have layers already created in your layered image. ADDITIONALLY, BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT THE CURRENT LAYER IS YOU WANT TO INSERT A RAINBOW IMAGE INSIDE OF. The rainbow image will be inserted inside of the layer you create, no matter if there is no image inside of the layer or if there is already an image inside of the layer. The rainbow image’s dimensions are automatically adjusted to the other images that are inside of the layered image so there is no need to worry. The other way to insert a rainbow image into a layer is through the menu option at the top of the GUI. Press the “Layer” menu option and then press the “Insert Rainbow Image” option in the pop-down window that comes up.  MAKE SURE YOU HAVE A LAYER CLICKED/SELECTED IN YOUR SELECTION LIST BEFORE PRESSING THE BUTTONS TO TELL THE PROGRAM WHICH LAYER YOU WANT THE RAINBOW IMAGE TO BE INSERTED INTO. 
+
+
+GreyScale:
+
+To apply a greyscale photo edit on an image inside of a layer, there are two things you can do. The first way to do this is to press the “Greyscale” button on the left-hand side of the GUI. Before applying the greyscale photo edit on an image in a layer, you need to make sure that you have layers already created in your layered image. ADDITIONALLY, BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT THE CURRENT LAYER IS YOU WANT TO APPLY THE GREYSCALE COLOR TRANSFORMATION ON. If there is no image inside of the layer you are selecting, an error message will pop up. The other way to apply the greyscale photo edit on an image in a layer is through the menu option at the top of the GUI. Press the “Edit” menu option and then press the “Greyscale” option in the pop-down window that comes up. MAKE SURE YOU HAVE A LAYER CLICKED/SELECTED IN YOUR SELECTION LIST BEFORE PRESSING THE BUTTONS TO TELL THE PROGRAM WHICH LAYER YOU WANT THE GREYSCALE PHOTO EDIT TO BE APPLIED ONTO THAT LAYER’S IMAGE.
+
+Blur:
+
+To apply a blur photo edit on an image inside of a layer, there are two things you can do. The first way to do this is to press the “Blur” button on the left-hand side of the GUI. Before applying the blur photo edit on an image in a layer, you need to make sure that you have layers already created in your layered image. ADDITIONALLY, BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT THE CURRENT LAYER IS YOU WANT TO APPLY THE BLUR FILTER ON. If there is no image inside of the layer you are selecting, an error message will pop up. The other way to apply the blur photo edit on an image in a layer is through the menu option at the top of the GUI. Press the “Edit” menu option and then press the “Blur” option in the pop-down window that comes up. MAKE SURE YOU HAVE A LAYER CLICKED/SELECTED IN YOUR SELECTION LIST BEFORE PRESSING THE BUTTONS TO TELL THE PROGRAM WHICH LAYER YOU WANT THE BLUR PHOTO EDIT TO BE APPLIED ONTO THAT LAYER’S IMAGE.
+
+Sharpen:
+
+To apply a “sharpen” photo edit on an image inside of a layer, there are two things you can do. The first way to do this is to press the “Sharpen” button on the left-hand side of the GUI. Before applying the sharpen photo edit on an image in a layer, you need to make sure that you have layers already created in your layered image. ADDITIONALLY, BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT THE CURRENT LAYER IS YOU WANT TO APPLY THE SHARPEN FILTER ON. If there is no image inside of the layer you are selecting, an error message will pop up. The other way to apply the sharpen photo edit on an image in a layer is through the menu option at the top of the GUI. Press the “Edit” menu option and then press the “Sharpen” option in the pop-down window that comes up. MAKE SURE YOU HAVE A LAYER CLICKED/SELECTED IN YOUR SELECTION LIST BEFORE PRESSING THE BUTTONS TO TELL THE PROGRAM WHICH LAYER YOU WANT THE SHARPEN PHOTO EDIT TO BE APPLIED ONTO THAT LAYER’S IMAGE.
+
+Sepia:
+
+To apply a sepia photo edit on an image inside of a layer, there are two things you can do. The first way to do this is to press the “Sepia” button on the left-hand side of the GUI. Before applying the sepia photo edit on an image in a layer, you need to make sure that you have layers already created in your layered image. ADDITIONALLY, BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT THE CURRENT LAYER IS YOU WANT TO APPLY THE SEPIA COLOR TRANSFORMATION ON. If there is no image inside of the layer you are selecting, an error message will pop up. The other way to apply the sepia photo edit on an image in a layer is through the menu option at the top of the GUI. Press the “Edit” menu option and then press the “Sepia” option in the pop-down window that comes up. MAKE SURE YOU HAVE A LAYER CLICKED/SELECTED IN YOUR SELECTION LIST BEFORE PRESSING THE BUTTONS TO TELL THE PROGRAM WHICH LAYER YOU WANT THE SEPIA PHOTO EDIT TO BE APPLIED ONTO THAT LAYER’S IMAGE.
+
+
+
+Open Existing A Project: 
+
+
+This button in the GUI refers to loading an entire layered image that was previously saved by our program back into the GUI for more editing. To open an existing project that was saved by our program, there are two things you can do. The first thing you can do is press the “Open Existing Project” button on the top panel of the GUI. You do not have to have any layers in the layered image to run this operation and it does not matter if you have a layer clicked or not. Once your press this button, a pop-up window will pop up and ask you to pick a text file with the text directions and locations of the layers you want to insert into the GUI layered image editor. The text file that is inserted needs to be in the same format as a text file that is exported when a previous layered image was saved by our program. Here is an example text file you can look for and use to upload example layers we already created into the editor program: 
+
+./res/jar_and_scripts/script1layeredimage/imageLocations.txt
+
+You can also use the text file that is created from calling pressing the save button below.
+ An error message will pop up if this is not the case. The other way to open an existing project into the GUI is through the menu option at the top of the GUI. Press the “File” menu option and then press the “Open Existing Project” option in the pop-down window that comes up. The same prompting for a text file will occur and the same rules for that text file hold. 
+
+
+Save:
+
+This button in the GUI saves an entire layered image into a provided folder. All of the images are exported to this folder and a text file is created that provides descriptive feedback about the state of the layers. This text file can be imported back into the GUI through the “Open Existing Project” functionality mentioned above. To save a layered image you have in the GUI, there are two things you can do. The first thing you can do is press the “Save” button on the top panel of the GUI. You do not have to have any layers in the layered image to run this operation and it does not matter if you have a layer clicked or not. Once your press this button, a pop-up window will pop up and ask you to pick a folder where you want the layered image to be saved too. If you want a folder to be created for you, you can just type in your desired name of the folder in the text box titled “Save As:”. The other way to save the layered image you have in the GUI is through the menu option at the top of the GUI. Press the “File” menu option and then press the “Save” option in the pop-down window that comes up. The same prompting for a folder will occur and the same rules for that pop-up window hold. 
+
+
+
+Export The Top Image:
+
+This button in the GUI exports the topmost visible layered image into a file that is provided or to a new file with a file name that is provided. If there are no visible images in the layered image, or if the images inside of the layers are all blank, nothing will be exported!  To export the topmost visible image in the layered image you have in the GUI, there are two things you can do. The first thing you can do is press the “Export Top Image” button on the top panel of the GUI. Once your press this button, a pop-up window will pop up and ask you to pick a file where you want the topmost visible image in the layered image to be exported to. If you want a file to be created for you, you can just type in your desired name of the file in the text box titled “Save As:”. Make sure that the file name you provide ends with a proper file format, .png, .jpeg, .jpg, or .ppm. If you provide an invalid filename, an error message will be thrown. The other way to export the topmost visible image in the GUI is through the menu option at the top of the GUI. Press the “File” menu option and then press the “Export Top Image” option in the pop-down window that comes up. The same prompting for a file will occur and the same rules for that pop-up window hold. 
+
+
+
+Load Image Into Layer:
+
+This button in the GUI allows for a client to load a desired image into the layer that they have selected through the selection panel. To load an image into the layer that is selected through the selection panel you have in the GUI, there are two things you can do. The first thing you can do is press the “Load Image Into Layer” button on the top panel of the GUI. BEFORE YOU PRESS THIS BUTTON, MAKE SURE YOU CLICK ONE OF THE LAYERS YOU CREATED IN THE SELECTION LIST. THIS IS HOW THE PROGRAM KNOWS WHAT THE CURRENT LAYER IS YOU WANT TO LOAD YOUR DESIRED IMAGE INTO. Once your press this button, a pop-up window called “Open” will pop up and ask you to select a file in your computer that holds the desired image you want to load into the desired layer you have selected in the selection panel. JPG, PPM, and PNG are the valid file formats that are accepted for the images you want to load into your selected layer. If the file is not valid or does not have the proper file format, an error message will pop up. If the image inside of the file you want to load does not have the proper dimensions to be added to the layered image, an error message will pop up. The other way to load an image into the layer you have selected in the selection list in the GUI is through the menu option at the top of the GUI. Press the “File” menu option and then press the “Load Image Into Layer” option in the pop-down window that comes up. The same prompting for a file will occur and the same rules for that pop-up window hold. 
+
+
+
+Insert Script: 
+
+This button in the GUI allows for a client to load a desired script of commands into the GUI. 
+To load in a script with the desired set of commands for the layered image in the GUI, there are two things you can do. The first thing you can do is press the “Insert Script” button on the top panel of the GUI. For this button, it is not important if you have a layer in your selection list selected or not. Once you press this button, a popup window called “Open” will pop up. This window will ask you to select a text file in your computer that holds the script file you want to run on the layered image in the GUI. If the text file has the incorrect format or is not a text file, error messages will be produced by the GUI. The layers inside of the layered image in the GUI will be updated according to the commands that are passed into the script. PLEASE NOTE: loading a script will not override the current images in your program, unless the script does that itself through commands like “remove”. Make sure you pass in an accurate script with the outcomes you want! We have created a script file for you to use. The name of it was provided at the top of this USEME document. The other way to insert a script of commands you have as a text file into the GUI is through the menu option at the top of the GUI. Press the “File” menu option and then press the “Insert Script” option in the pop-down window that comes up. The same prompting for a text file will occur and the same rules for that pop-up window hold. 
+
+
+
+
+
+
+HW06USEME for Reference on How To Use The Interactive Commands:
+
+Command Rules:
+
+-Before using any of the commands please read the description down below of every single one and how they work properly!!!
+
+- If you choose the interactive option, you need to run the command “createLayer” first before doing anything. No commands can be done on a layer if none have been created yet. 
+
+-The photo edit commands are set on editing whatever the image is inside of the current layer in the layered image. Make sure to use the “setCurrent” command if you want to change what layer you want to apply a photo edit to! The other commands that are set on the current layer in the image are the 
+“addCopyOfCurrentLayer” command and the “createRainbow” command. Make sure to read the documentation of these below!
+
+-Off the bat, the first layer you create is the “current” layer inside of the layered image and that layer will still the current unless changed by the “setCurrent” command.
+
+-In our model, when a new layer is created it is added to the bottom of the layered image, not the top of the layered image.
+
+-The current layer will always be the top layer as default in the layered image when the first layer is created unless you change it to be a new layer with the “setCurrent” command.
+
+
+These are just some general rules for the functionality of the controller. Deeper instructions on how to correctly use the commands are down below:
+
+
+
+
+How To Use the Script File and Interactive Functionality Of The Program:
+
+
+If you choose to run our new program with the “-text” option described in the HW07README, the first thing that you will see when you run this version of the program is this prompt: “Type ‘script’ to run a script of commands or type ‘interactive’ to input to the console. 
+
+To run our example script, you can type in “HW07Script.txt”  after inputting “script”, and this will run the script and output the photos that the commands create and edit within the jar_and_scripts folder.
+
+If you are planning to provide the name of a valid .txt file that contains the script of commands you want to run, type in the word script. After typing in the word script, the program now understands that you want to insert a file with the correct commands. The program will output a message saying “Type the name of the script file you would like to run,  which should end in .txt”. The next thing you should type is the valid name of the .txt file you want the program to read and execute. Make sure that your file is in the .txt format and do not type in anything else besides the name of the file you want to be read if you want the program to function correctly. Here is when you should type in one of the valid script .txt files that we created for working properly. You can use the script file we created and it should work properly. If you type in an invalid file format that is not .txt or if you provide .txt file that does not exist, the program will not work properly!
+
+If you are planning to type in commands interactively, you should type in the word “interactive” when you see the program prompt you. After typing in the word interactive, you are ready to start giving the program your commands. The first command you should give the program is the createLayer command. Nothing can be done in our program unless you create the layers first. Other functionality will not work unless the layers have been created by calling the createLayer command for as many layers as you want to make. Look through the documentation below on how to use the commands properly!
+
+Once you choose interactive or script, you have to stick to that choice. If you want to choose the other choice after starting, you will need to restart the program!
+
+
+COMMANDS (case sensitive):
+createLayer <layer name>
+setCurrent <layer name>
+load <image file name>
+loadLayeredImage <text file name>
+setTransparent
+setVisisble
+addCopyOfCurrentLayer <name of the new copy layer>
+remove <layer name>
+createRainbow
+exportLayerImage <file name>
+saveLayers <name of folder to save to>
+blur
+sepia
+sharpen
+greyscale
+
+
+
+“createLayer”:
+
+This command is represented by CreateLayerCommand function object.
+
+-CreateLayer is the first command that should be run as it creates a new layer and 
+Adds it to the layered image model.
+-In order to run this command properly, you need to write “createLayer” and then following this string you add the desired name you want for the layer. In our design, no layers can have the same no, so you will be notified if your desired name already exists. For this command, you should only type in two strings, the createLayer command, and the following layer name.
+-Since you are just creating a layer, the layer is added as blank with a null image in its place and the desired name that you choose for the layer. Empty strings are also not valid names for a layer image. This is how our program allows for blank layers to be added! 
+-Make sure that the layer name you choose is not null or empty and that it does not already exist inside of the layered image model. 
+
+
+
+“load”:
+
+This command is represented by the UploadImageCommand function object.
+
+-This command loads in an image of a file that you want in either the jpeg, png, or ppm format.
+-In order to run this command properly, you need to write “load” and then follow this string with another string that is the name of the file that you want to upload into the layer.
+-Make sure that the file name you write is in this example format “file.png”, but of course fitted to whatever file you want to upload. The string you write for the file name should only have two tokens if it is split on the period of the string. Empty strings are also not valid names.
+-This load command, automatically uploads your file image into the current layer of the model. 
+-If you want to upload the image to a specific layer, you need to set that specific layer as the current layer.
+-The load command will not work if the image you are uploading into the layered image does not have the same dimensions as the other images in the layered image. However, if all the images in the layered image are null, then you can upload an image of any dimension.
+-The command will not work properly if there are no layers in the layered image. 
+
+
+“loadLayeredImage”:
+
+This command is represented by the LoadLayeredImageCommand function object
+
+-This command loads in layers into the editor from a file that has already been saved by our program. To load it, type “loadLayeredImage ”, then type the name of the text file that is formatted by our program when we save layer images. Here is an example of the syntax of that file:
+
+layer1 | isVisible: true | no image file
+layer2 | isVisible: true | no image file
+layer3 | isVisible: false | no image file
+layer3Copy | isVisible: true | ./res/savedlayerimagetest/layer3Copy.png
+
+You can type “loadLayeredImage “./res/jar_and_scripts/script1layeredimage/imageLocations.txt” to upload example layers we already created into the editor program, or you can use a text file that you export from calling “saveLayers”.
+
+This command will cause every existing layer in the editor to be deleted and replaced by the loaded layers, so be sure to save before loading. 
+
+
+“setCurrent”:
+
+This command is represented by the SetCurrentCommand function object.
+
+-This command makes a specified layer in the layered image current.
+-In order to run this command properly, you need to write “setCurrent” and then follow this string with another string that is the name of the layer that already exists in your layered image that you want to make current. Make sure that the layer name you write is an existing layer name in the layered image you are creating. Empty strings are also not valid names for a layer image. 
+-After you set this layer as current, you can apply all other command functions that use the current layer as the reference. 
+-The command will not work properly if there are no layers in the layered image. 
+
+
+
+
+“setTransparent”:
+
+This command is represented by the SetTransparentCommand function object.
+
+-This command makes the “current” layer in the layered image transparent.
+-In order to run this command properly, you need to write “setTransparent” and nothing after.
+The program will know to set the current layer as transparent from there. 
+-If you want to make a specific layer transparent, you need to call the “setCurrent” command first and make the specific layer you want the current layer so this command has the right reference to the layer you want.
+-This command will not work properly if there are no layers in the layered image. 
+
+
+“setVisible”:
+
+This command is represented by the SetVisibleCommand function object.
+
+-This command makes the “current” layer in the layered image visible.
+-In order to run this command properly, you need to write “setVisible” and nothing after.
+The program will know to set the current layer as visible from there.
+-If you want to make a specific layer visible, you need to call the “setCurrent” command first and make the specific layer you want the current layer so this command has the right reference to the layer you want.
+-This command will not work properly if there are no layers in the layered image. 
+
+
+
+“addCopyOfCurrentLayer”:
+
+This command is represented by the CopyCurrentLayerCommand function object.
+
+-This command adds a new layer to the bottom of the layered image. This new layer is a copy 
+of the current layer that is inside of the layered image.
+-In order to run this command properly, you need to write “addCopyOfCurrentLayer” and then follow this with another string that represents the name you want your new copied layer to have.
+-If you input a new layer name that already exists in the layered image then the command will not work, as our program does not let there be duplicate layer names in an image. Empty strings are also not valid names for a layer image. 
+-The command will not work properly if there are no layers in the layered image. 
+
+
+
+“remove”:
+
+This command is represented by the RemoveCommand function object.
+
+-This command removes the specific layer that you want to remove from the layered image.
+-In order to run this command properly, you need to write “remove” and then follow this with another string that represents the name of the layer that you want to remove from a layered image.
+-The layer name that you provide needs to already exist in the layered image for this command to work properly.
+-This command will not work properly if there are no layers in the layered image.
+
+
+
+“createRainbow”:
+
+This command is represented by the CreateRainbowCommand function object.
+
+-This command replaces the image that is at the current layer with a constant rainbow image that we programmatically created for the user. Note, we chose to allow the user to create rainbows as opposed to checkerboard images.
+-We automatically adjust the dimensions of the programmatic rainbow image to fit the layered image properly. 
+-If all the images inside of the layered image are null and blank, we make the rainbow image have the dimensions 300X500.
+-In order to run this command properly, all you have to do is write the “createRainbow” command and nothing else.
+-If you want to add a rainbow generated image to a specific layer, you can use the “setCurrent” 
+command to make your desired layer in the layered image has the new rainbow image. 
+-The command will not work properly if there are no layers in the layered image.
+
+
+“exportLayerImage”:
+
+This command is represented by the ExportImageCommand function object.
+
+-This command exports the topmost visible non-null image that is inside of the layered image.
+-If none of the layers are visible, then the command will not work properly and an error message will be shown. 
+-If a layer is topmost and visible, but its image is still null, then this image will not be exported and the command will keep looking for the next topmost visible image in the layered image that is not null.
+-In order to run this command properly, you need to write “exportLayerImage” and then follow this with another string that represents the name of the file you want this image to be exported to.
+-Make sure that the file name you write is in this example format “file.png”, but of course fitted to whatever file you want to upload. The string you write for the file name should only have two tokens if it is split on the period of the string. Empty strings are also not valid names. The valid file formats end with .ppm, .png, and .jpeg. An error message will pop up if the file name is not valid or does not exist. 
+-This command will not work properly if there are no layers in the layered image.
+
+
+
+
+“saveLayers”:
+
+This command is represented by the SaveLayersCommand function object.
+
+-This command saves/exports all of the images that exist in the layered image to the same folder that is provided by the user input. Additionally, a text file with the locations of the image files will also be added to that same folder.
+-In order to run this command properly, you need to write “saveLayers” and then follow this with another string that represents the name of the folder that you want the files of all of the exported images to be inside of. NOTE: YOU DO NOT NEED TO START THE STRING WITH “./” IF YOU ARE CREATING A FOLDER WITHIN A FOLDER. For example, “saveLayers res/this_is_my_folder” is a valid input, as opposed to “saveLayers ./res/this_is_my_folder”. The name of the folder you provide cannot be null!
+-If there are null images inside of your layered images, they will not be exported, however, the status of these null images will still be kept in the text file that houses the locations of the files.
+-All of the images inside of the layered image that can be exported will be exported to the file format of your choosing.
+-If the folder name you provided already exists in your machine, this function will override that folder with the new images.
+-If there are no layers in your layered image, then only an empty folder with your specified name will be created.
+
+
+
+
+“blur”:
+
+This command is represented by the BlurCommand function object.
+
+-This command applies the Blur filter edit onto the current layer image in the layered image. 
+-All you have to do for this command is write the word “blur” and it should automatically blur 
+the image which resides in the current layer.
+-If the current layer currently has a null image, then an error message will be written saying you cannot blur a null image.
+-Make sure the image you are trying to blur at the current layer is not null before calling the command.
+-If there are no layers in the layered image, then this command will not work and an error message will be thrown.
+-You can apply the blur method to different layers by setting other layers throughout the layered image as current. 
+
+
+“sepia”:
+
+This command is represented by the SepiaCommand function object.
+
+-This command applies the sepia color transformation onto the current layer image in the layered image. 
+-All you have to do for this command is write the word “sepia” and it should automatically transform the image which resides in the current layer.
+-If the current layer currently has a null image, then an error message will be written saying you cannot transform a null image.
+-Make sure the image you are trying to transform at the current layer is not null before calling the command.
+-If there are no layers in the layered image, then this command will not work and an error message will be thrown.
+-You can apply the sepia command to different layers by setting other layers throughout the layered image as current. 
+
+“greyscale”:
+
+This command is represented by the GreyScaleCommand function object.
+
+-This command applies the greyscale color transformation onto the current layer image in the layered image. 
+-All you have to do for this command is write the word “greyscale” and it should automatically transform the image which resides in the current layer.
+-If the current layer currently has a null image, then an error message will be written saying you cannot transform a null image.
+-Make sure the image you are trying to transform at the current layer is not null before calling the command.
+-If there are no layers in the layered image, then this command will not work and an error message will be thrown.
+-You can apply the greyscale command to different layers by setting other layers throughout the layered image as current. 
+
+
+
+“sharpen”:
+
+This command is represented by the SharpenCommand function object.
+
+-This command applies the sharpen filter onto the current layer image in the layered image. 
+-All you have to do for this command is write the word “sharpen” and it should automatically filter the image which resides in the current layer.
+-If the current layer currently has a null image, then an error message will be written saying you cannot sharpen filter a null image.
+-Make sure the image you are trying to sharpen at the current layer is not null before calling the command.
+-If there are no layers in the layered image, then this command will not work and an error message will be thrown.
+-You can apply the sharpen command to different layers by setting other layers throughout the layered image as current. 
+
+
+
+

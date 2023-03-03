@@ -1,0 +1,4 @@
+layer1 | isVisible: true | no image file
+layer2 | isVisible: true | no image file
+layer3 | isVisible: true | no image file
+layer3Copy | isVisible: true | ./res/script1layeredimage/layer3Copy.png

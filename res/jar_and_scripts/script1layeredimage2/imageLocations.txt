@@ -1,0 +1,5 @@
+layer1 | isVisible: true | ./script1layeredimage2/layer1.png
+layer2 | isVisible: true | ./script1layeredimage2/layer2.png
+layer3 | isVisible: true | ./script1layeredimage2/layer3.png
+layer5 | isVisible: true | no image file
+layer3Copy | isVisible: true | ./script1layeredimage2/layer3Copy.png

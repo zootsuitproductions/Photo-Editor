@@ -1,0 +1,3 @@
+layer1 | isVisible: true | ./script1layeredimage/layer1.png
+layer2 | isVisible: true | ./script1layeredimage/layer2.png
+layer3 | isVisible: true | ./script1layeredimage/layer3.png

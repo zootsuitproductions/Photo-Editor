@@ -1,0 +1,4 @@
+layer1 | isVisible: true | no image file
+layer2 | isVisible: true | no image file
+layer3 | isVisible: false | no image file
+layer3Copy | isVisible: true | savedlayerimagetest/layer3Copy.png

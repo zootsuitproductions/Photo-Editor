@@ -1,0 +1,1 @@
+hi | isVisible: true | .//Users/danielsantana/Downloads/hw07/res/jar_and_scripts/./rainbow/hi.png
