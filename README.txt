@@ -1,8 +1,6 @@
 HW07 ReadMe:
 
-PLEASE NOTE: To run the scripts we wrote, and to run our tests, you need to unzip the res folder beforehand!! We had to zip this folder to get around the 125 file cap. Thank you!
-
-PLEASE LOOK AT THE USEME FILE FOR INSTRUCTIONS ON HOW TO USE THE GUI WE MADE!
+CONSULT THE USEME FILE FOR INSTRUCTIONS ON HOW TO USE THE GUI WE MADE!
 
 Image Citations: All the images that we have used in our scripts and for different testing purposes, have been created by Michael Redko and Daniel Santana. We authorize the use of our own images!
 
